@@ -7,7 +7,7 @@ function askDelete(propertyId) {
     return;
   }
 
-  fetch(`/delete-property/${propertyId}`, {
+  fetch(`https://houserental-t91k.onrender.com/delete-property/${propertyId}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
