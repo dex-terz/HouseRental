@@ -1,6 +1,6 @@
 // In routes/auth.js or routes/property.js
 const multer = require('multer');
-const Property = require('../models/property');
+const Property = require('../models/Property');
 const express=require('express')
 const router = express.Router();
 const bcrypt = require('bcryptjs');
