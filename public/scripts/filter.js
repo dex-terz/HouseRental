@@ -1,4 +1,4 @@
-fetch('https://your-backend.onrender.com/all-properties')
+fetch('https://houserental-t91k.onrender.com/all-properties')
   .then(res => res.json())
   .then(properties => {
     renderProperties(properties);
